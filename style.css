@@ -1,2 +1,79 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-container img{
+    width: 120px;
+}
+
+.grow-list .list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 550px;
+}
+
+.list :nth-child(n+2) {
+    opacity: .5;
+}
+
+.nav-button {
+  margin-left: 450px;
+  color: #fff;
+  font-size: 17px;
+  background-color: #5955B3;
+  padding: 18px 28px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+}
+
+.banner-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.banner-container div img{
+    height: 640px;
+    width: 900px;
+    margin-right: 40px;
+}
+
+.heading-text{
+    font-size: 60px;
+    color: #3C2F60;
+    margin-top: 100px;
+}
+span{
+    color: #5955B3;
+}
+
+.description{
+    margin: 20px 100px 20px 0; 
+    font-size: 16px;
+    line-height: 30px;
+    opacity: .5;
+}
+
+.btn{
+    margin: 50px 50px 50px 0;
+    padding: 28px 60px;
+}
