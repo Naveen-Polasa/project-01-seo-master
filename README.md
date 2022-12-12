@@ -4,7 +4,7 @@ Live Site URL: [Visit here 🚀 ](https://seo-master-p01.netlify.app/)
 
 ### Screenshot
 
-![screenshot](./assets/result.png)
+![screenshot](https://user-images.githubusercontent.com/91241718/207108278-8cedf838-5fe8-4d92-8c57-a6aaf48ff189.png)
 
 ### Built with
 
